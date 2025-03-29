@@ -1,6 +1,12 @@
 
 # Matrix Multiplication Compiler (Custom ISA)
 
+## Compiler Designed and Implemented By:
+
+- Hitesh Krishna (22BAI1036)
+- Piyush Vyas (22BAI1028)
+- Harshaditya Sharma (22BAI1054)
+
 ## Overview
 
 This project implements a simplified compiler designed to translate the task of multiplying two square matrices (C = A * B) of a user-specified dimension `n` into a sequence of instructions for a custom Instruction Set Architecture (ISA).
@@ -65,7 +71,7 @@ sudo apt install build-essential
 
 1. **Clone the Repo**
 ```bash
-    git clone <repository_url>
+    git clone https://github.com/hiteshhhh007/Compiler-CustomISA.git
     cd MatCompiler
 ```
 Navigate to the `MatCompiler` directory in your terminal.
@@ -179,4 +185,6 @@ The `isa_encoding.c` module handles the packing of these fields into the final 2
 *   Add robust unit and integration testing frameworks (e.g., Check, CUnit).
 *   Improve error handling and reporting.
 *   Enhance the memory model.
+
+
 
