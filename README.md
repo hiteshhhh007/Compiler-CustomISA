@@ -62,21 +62,27 @@ sudo apt install build-essential
 
 ## Building the Project
 
+
+1. **Clone the Repo**
+```bash
+    git clone <repository_url>
+    cd MatCompiler
+```
 Navigate to the `MatCompiler` directory in your terminal.
 
-1.  **(Optional) Clean previous builds:**
+2.  **(Optional) Clean previous builds:**
     ```bash
     make clean
     ```
     This removes any previously generated executables, object files, and `output.isa`.
 
-2.  **Build the main compiler:**
+3.  **Build the main compiler:**
     ```bash
     make
     ```
     This compiles all necessary source files and creates the `matrix_compiler` executable in the current directory (`MatCompiler/`).
 
-3.  **Build the lookup table printer utility:**
+4.  **Build the lookup table printer utility:**
     ```bash
     make print_tables
     ```
