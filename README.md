@@ -7,6 +7,8 @@
 - Piyush Vyas (22BAI1028)
 - Harshaditya Sharma (22BAI1054)
 
+
+*(Note: .matrix_compiler executable and output.isa is present under output folder)*
 ## Overview
 
 This project implements a simplified compiler designed to translate the task of multiplying two square matrices (C = A * B) of a user-specified dimension `n` into a sequence of instructions for a custom Instruction Set Architecture (ISA).
